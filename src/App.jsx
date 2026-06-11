@@ -27,6 +27,18 @@ function App() {
               fontWeight: 900, fontSize: '0.9rem', color: '#fff'
             }}>ZC</div>
             <span style={{ fontWeight: 800, fontSize: '1.15rem', letterSpacing: '-0.01em' }}>Zyrocloud</span>
+            <span style={{
+              background: 'linear-gradient(90deg, #8b5cf6, #06b6d4)',
+              color: '#fff',
+              fontSize: '0.65rem',
+              fontWeight: 800,
+              padding: '0.2rem 0.55rem',
+              borderRadius: '99px',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              marginLeft: '0.25rem',
+              verticalAlign: 'middle'
+            }}>Beta</span>
           </Link>
 
           {/* Nav Links */}
