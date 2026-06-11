@@ -18,7 +18,7 @@ const gamesData = {
   minecraft: {
     title: "Minecraft Java",
     subtitle: "Vanilla & modded Java edition servers",
-    bgImage: "/images/minecraft.png",
+    bgImage: "https://wallpapercave.com/wp/wp2754990.jpg",
     plans: [
       { name: "Starter", price: "23", features: ["2GB RAM", ...baseFeatures], popular: false },
       { name: "Basic", price: "46", features: ["4GB RAM", ...baseFeatures], popular: false },
@@ -29,7 +29,7 @@ const gamesData = {
   palworld: {
     title: "Palworld Hosting",
     subtitle: "Co-op worlds with Budget, Power, and Ultimate tiers",
-    bgImage: "/images/palworld.png",
+    bgImage: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/capsule_616x353.jpg",
     plans: [
       { name: "Budget", price: "35", features: ["4GB RAM", ...baseFeatures], popular: false },
       { name: "Power", price: "65", features: ["8GB RAM", ...baseFeatures], popular: true },
@@ -40,7 +40,7 @@ const gamesData = {
   fivem: {
     title: "FiveM Hosting",
     subtitle: "RP communities with matching RAM, NVMe, and vCore plans",
-    bgImage: "/images/fivem.png",
+    bgImage: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/capsule_616x353.jpg",
     plans: [
       { name: "Starter", price: "23", features: ["2GB RAM", ...baseFeatures], popular: false },
       { name: "Basic", price: "46", features: ["4GB RAM", ...baseFeatures], popular: false },
@@ -51,7 +51,7 @@ const gamesData = {
   "discord-bots": {
     title: "Discord Bots",
     subtitle: "24/7 bot hosting with auto-restart",
-    bgImage: "/images/bots.png",
+    bgImage: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&w=1920",
     plans: [
       { name: "Nano", price: "10", features: ["512MB RAM", "Auto-Restart", "Node/Python", "24/7 Uptime"], popular: false },
       { name: "Micro", price: "15", features: ["1GB RAM", "Auto-Restart", "Node/Python", "24/7 Uptime"], popular: true },

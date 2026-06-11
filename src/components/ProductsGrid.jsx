@@ -6,28 +6,28 @@ const products = [
     tag: "GAME SERVERS",
     title: "Minecraft Java",
     desc: "Vanilla & modded Java edition servers",
-    image: "/images/minecraft.png",
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
     link: "/game/minecraft"
   },
   {
     tag: "GAME SERVERS",
     title: "Palworld Hosting",
     desc: "Co-op worlds with Budget, Power, and Ultimate tiers",
-    image: "/images/palworld.png",
+    image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/capsule_616x353.jpg",
     link: "/game/palworld"
   },
   {
     tag: "GAME SERVERS",
     title: "FiveM Hosting",
     desc: "RP communities with matching RAM, NVMe, and vCore plans",
-    image: "/images/fivem.png",
+    image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=800&q=80",
     link: "/game/fivem"
   },
   {
     tag: "BOTS",
     title: "Discord Bots",
     desc: "24/7 bot hosting with auto-restart",
-    image: "/images/bots.png",
+    image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&w=800&q=80",
     link: "/game/discord-bots"
   }
 ];
@@ -57,8 +57,13 @@ export default function ProductsGrid() {
                   display: 'flex',
                   flexDirection: 'column'
                 }}>
-                  <div style={{ position: 'relative', height: '200px' }}>
-                    <img src={p.image} alt={p.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <div style={{ position: 'relative', height: '200px', background: '#0a0c1e' }}>
+                    <img
+                      src={p.image}
+                      alt={p.title}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      onError={e => { e.target.style.display = 'none'; }}
+                    />
                     <div style={{
                       position: 'absolute', inset: 0,
                       background: 'linear-gradient(to top, rgba(7,9,26,1), transparent)'

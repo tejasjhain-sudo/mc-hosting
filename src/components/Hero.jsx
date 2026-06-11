@@ -7,7 +7,7 @@ const services = [
     name: "Minecraft",
     desc: "Budget to Ultimate game servers.",
     price: "₹23",
-    thumb: "https://www.minecraft.net/content/dam/games/minecraft/key-art/Games_Subnav_Minecraft-300x465.jpg"
+    thumb: "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"
   },
   {
     name: "Palworld",
@@ -19,13 +19,13 @@ const services = [
     name: "FiveM",
     desc: "RP communities and scripts.",
     price: "₹48",
-    thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/FiveM-Logo.svg/1200px-FiveM-Logo.svg.png"
+    thumb: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/capsule_231x87.jpg"
   },
   {
     name: "Discord Bots",
     desc: "24/7 bot hosting with auto-restart.",
     price: "₹200",
-    thumb: "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"
+    thumb: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&w=200"
   }
 ];
 
