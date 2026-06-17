@@ -39,7 +39,7 @@ function BetaBanner() {
       }}>
         {Array(10).fill(null).map((_, i) => (
           <span key={i} style={{ color: '#fff', fontSize: '0.8rem', fontWeight: 700, letterSpacing: '0.05em', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-            🧪 Zyrocloud is currently in <strong>BETA</strong> — features are being added. Thank you for being an early supporter! &nbsp; ⭐
+            🧪 LifeCloud is currently in <strong>BETA</strong> — features are being added. Thank you for being an early supporter! &nbsp; ⭐
           </span>
         ))}
       </div>
@@ -109,7 +109,7 @@ function BetaPopup({ onClose }) {
             You're in <span style={{ background: 'linear-gradient(90deg, #8b5cf6, #06b6d4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Beta</span>!
           </h2>
           <p style={{ color: '#94a3b8', fontSize: '1.05rem', lineHeight: 1.7, marginBottom: '2rem' }}>
-            Welcome to the early access build of <strong style={{ color: '#fff' }}>Zyrocloud</strong>. We're actively building new features, so you might encounter bugs or incomplete sections. Your feedback matters!
+            Welcome to the early access build of <strong style={{ color: '#fff' }}>LifeCloud</strong>. We're actively building new features, so you might encounter bugs or incomplete sections. Your feedback matters!
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
@@ -161,8 +161,8 @@ function App() {
               background: 'linear-gradient(135deg, #8b5cf6, #06b6d4)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontWeight: 900, fontSize: '0.9rem', color: '#fff'
-            }}>ZC</div>
-            <span style={{ fontWeight: 800, fontSize: '1.15rem', letterSpacing: '-0.01em' }}>Zyrocloud</span>
+            }}>LC</div>
+            <span style={{ fontWeight: 800, fontSize: '1.15rem', letterSpacing: '-0.01em' }}>LifeCloud</span>
             <span style={{
               background: 'linear-gradient(90deg, #8b5cf6, #06b6d4)',
               color: '#fff',

@@ -56,7 +56,7 @@ export default function Hero() {
             Hosting
           </h1>
           <h1 style={{ fontSize: '4.2rem', fontWeight: 900, lineHeight: 1.05, letterSpacing: '-0.03em', marginBottom: '2rem' }}>
-            <span className="text-gradient">with Zyrocloud</span>
+            <span className="text-gradient">with LifeCloud</span>
           </h1>
 
           {/* Description box */}
@@ -70,7 +70,7 @@ export default function Hero() {
             maxWidth: '480px'
           }}>
             <p style={{ color: '#94a3b8', fontSize: '1rem', lineHeight: 1.7, margin: 0 }}>
-              Operating since 2023, Zyrocloud is trusted by gaming creators, Minecraft networks, and growing communities. We operate 2,000+ active servers with low-latency infrastructure, DDoS protection, and reliable uptime.
+              Operating since 2023, LifeCloud is trusted by gaming creators, Minecraft networks, and growing communities. We operate 2,000+ active servers with low-latency infrastructure, DDoS protection, and reliable uptime.
             </p>
           </div>
 

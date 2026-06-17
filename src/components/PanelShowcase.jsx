@@ -10,7 +10,7 @@ export default function PanelShowcase() {
             Advanced <span className="text-gradient">Control Panel</span>
           </h2>
           <p style={{ color: '#64748b', fontSize: '1.05rem', marginBottom: '2rem' }}>
-            Manage your server with ease using our custom-built panel at panel.zyrocloud.in. Access console, manage files, and schedule backups all from one place.
+            Manage your server with ease using our custom-built panel at panel.lifecloud.in. Access console, manage files, and schedule backups all from one place.
           </p>
           <ul style={{ listStyle: 'none', marginBottom: '2rem' }}>
             {[

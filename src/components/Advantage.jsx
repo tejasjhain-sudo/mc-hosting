@@ -61,7 +61,7 @@ export default function Advantage() {
                 EXPERIENCE THE
               </div>
               <div style={{ fontSize: '1.6rem', fontWeight: 900, lineHeight: 1.1, marginBottom: '0.4rem' }}>
-                Zyrocloud
+                LifeCloud
               </div>
               <div className="text-gradient" style={{ fontSize: '1.1rem', fontWeight: 700 }}>
                 Advantage

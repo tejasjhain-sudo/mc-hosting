@@ -5,7 +5,7 @@ const reviews = [
   { name: "AlexMines", role: "Network Owner", text: "Switched from a competitor and instantly noticed a 40% reduction in our TPS lag. Support team migrated all our plugins flawlessly.", rating: 5 },
   { name: "PixelCrafters", role: "SMP Community", text: "Best value for money by far. We run a heavily modded Fabric server with 50+ players and the Ryzen 9 nodes chew right through it.", rating: 5 },
   { name: "DevJohn", role: "Discord Bot Dev", text: "Panel is super responsive, uptime is exactly as advertised. I host 14 different Discord bots here without a single hiccup.", rating: 5 },
-  { name: "SurvivalElite", role: "Server Admin", text: "The anti-DDoS actually works. We used to get taken offline every weekend, but since moving to Zyrocloud we haven't had a single drop.", rating: 5 },
+  { name: "SurvivalElite", role: "Server Admin", text: "The anti-DDoS actually works. We used to get taken offline every weekend, but since moving to LifeCloud we haven't had a single drop.", rating: 5 },
   { name: "RustyGamers", role: "Rust Clan Leader", text: "Insane NVMe speeds. Wipes load up in seconds and saving the map doesn't cause rubberbanding anymore.", rating: 5 },
   { name: "BuildTeamPro", role: "Creative Network", text: "Fast setup, great panel, and the prices are unbeatable for the hardware you get.", rating: 5 }
 ];
